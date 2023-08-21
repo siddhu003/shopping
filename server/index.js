@@ -19,7 +19,7 @@ app.use(cors());
 
 const PORT = process.env.PORT || 5000
 
-const DATABASE_URL = "mongodb+srv://120cs0033:03032003Sa@shopping.qh4xara.mongodb.net/"
+const DATABASE_URL = ""
 
 mongoose.connect(DATABASE_URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => app.listen(PORT, () => { console.log(`server running on port ${PORT}`) }))
